@@ -77,19 +77,22 @@ width: 22%;
   }
   
   .marg{
-    margin-top: 8px;
+    margin-top: 18px;
     margin-left: 8px;
     text-align: justify;
+    font-size: 14px;
 }
 .price{
     text-align: justify;
     margin-left: 8px;
+    font-size: 14px;
 }
 .sflx{
     display: flex;
+    font-size: 14px;
 }
 .star{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .checked {
