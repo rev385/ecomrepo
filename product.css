@@ -1,0 +1,133 @@
+.cate{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    background: white;
+    margin: auto;
+    width: 100%;
+    height: 47px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.menu-font{
+font-family: "OpenSans-Bold";
+font-size: 14px;
+}
+.margfl{
+    margin-right: 10px;
+}
+.textdeco{
+    text-decoration: line-through; 
+    margin-right: 10px;
+}
+.fl{
+    display: flex;
+}
+.fontz{
+    margin-right: 50px;
+    cursor: pointer;
+    margin-top:14px;
+    font-size: 14px;
+}
+.bclass{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 25px;
+    height: 30px;
+    border: 1px solid rgb(16, 208, 214);
+    background-color: rgb(16, 208, 214);
+    color: white;
+}
+.flxp{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding-top: 8px;
+}
+.prodover{
+     text-align: center;
+     padding-bottom: 35px;
+     position: relative;
+}
+.wprod{
+width: 22%;
+}
+.flxo{
+    display: flex;
+    margin: 90px;
+    justify-content: space-between;
+}
+.imgb{
+    padding: 8px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    position: relative;
+}
+  
+  .imgb:hover {
+    transform: scale(1.1);
+  }
+  
+  .marg{
+    margin-top: 8px;
+    margin-left: 8px;
+    text-align: justify;
+}
+.price{
+    text-align: justify;
+    margin-left: 8px;
+}
+.sflx{
+    display: flex;
+}
+.star{
+    margin-left: 20px;
+}
+
+.checked {
+    color: orange;
+  }
+  @media (min-width: 1024px){
+    .col-md-4 {
+        -ms-flex: 0 0 24.333333% !important;
+        flex: 0 0 24.333333% !important;
+        max-width: 24.333333% !important;
+    }
+  }
+.card-badge {
+    position: absolute;
+    top: 1.25rem;
+    z-index: 1;
+    left: 7px;
+}
+.card {
+    flex-shrink: 0;
+}
+.badge {
+    letter-spacing: .02em;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.badge-dark {
+    color: #fff;
+    background-color: #1f1f1f;
+}
+.badge {
+    display: inline-block;
+    padding: .5em 1em;
+    font-size: .6875em;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
